@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stringo - Destek & İletişim</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: 16px;
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+        }
+        .logo-placeholder {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #38bdf8 0%, #0369a1 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 14px rgba(56, 189, 248, 0.4);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .email-box {
+            background-color: #0f172a;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 16px;
+            color: #38bdf8;
+            margin-bottom: 25px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .btn-mail {
+            display: inline-block;
+            background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+        .btn-mail:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+        }
+        .btn-mail:active {
+            transform: translateY(0);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Oyununun Baş Harfi -->
+        <div class="logo-placeholder">S</div>
+        
+        <h1>Stringo Destek & İletişim</h1>
+        
+        <p>Stringo ile ilgili herhangi bir sorun, hata bildirimi, satın alım problemi veya öneriniz varsa lütfen bizimle iletişime geçmekten çekinmeyin. En kısa sürede dönüş sağlayacağız.</p>
+        
+        <!-- E-posta Adresin (Burayı Kendi Mailinle Değiştir) -->
+        <div class="email-box">selcuk.94.eren@gmail.com</div>
+        
+        <!-- Butona tıklayınca doğrudan mail uygulaması açılır (Burayı da Değiştir) -->
+        <a href="mailto:selcuk.94.eren@gmail.com?subject=Stringo%20Destek%20Talebi" class="btn-mail">Destek Talebi Gönder</a>
+        
+        <div class="footer">
+            &copy; 2026 Stringo. Tüm Hakları Saklıdır.
+        </div>
+    </div>
+
+</body>
+</html>
